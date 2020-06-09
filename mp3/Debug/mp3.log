@@ -1,0 +1,54 @@
+﻿生成启动时间为 2012/7/23 9:08:02。
+     1>项目“C:\Users\junhuang\Desktop\SHINE\mp3\mp3.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Debug\mp3.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\bitstream.c ..\coder.c ..\huffman.c ..\layer3.c ..\loop.c ..\main.c ..\wave.c
+         wave.c
+     1>c:\users\junhuang\desktop\shine\wave.c(48): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         main.c
+         loop.c
+     1>c:\users\junhuang\desktop\shine\loop.c(226): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\junhuang\desktop\shine\loop.c(274): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\junhuang\desktop\shine\loop.c(437): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\junhuang\desktop\shine\loop.c(496): warning C4018: “>=”: 有符号/无符号不匹配
+     1>c:\users\junhuang\desktop\shine\loop.c(503): warning C4018: “>=”: 有符号/无符号不匹配
+     1>c:\users\junhuang\desktop\shine\loop.c(562): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\junhuang\desktop\shine\loop.c(586): warning C4018: “<”: 有符号/无符号不匹配
+         layer3.c
+         huffman.c
+         coder.c
+         bitstream.c
+     1>c:\users\junhuang\desktop\shine\bitstream.c(53): warning C4018: “>=”: 有符号/无符号不匹配
+     1>c:\users\junhuang\desktop\shine\bitstream.c(80): warning C4018: “>=”: 有符号/无符号不匹配
+     1>c:\users\junhuang\desktop\shine\bitstream.c(107): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\junhuang\desktop\shine\bitstream.c(232): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\mp3.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\mp3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\junhuang\Desktop\SHINE\mp3\Debug\mp3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\mp3.lib" /MACHINE:X86 .\Debug\mp3.exe.embed.manifest.res
+         .\Debug\bitstream.obj
+         .\Debug\coder.obj
+         .\Debug\huffman.obj
+         .\Debug\layer3.obj
+         .\Debug\loop.obj
+         .\Debug\main.obj
+         .\Debug\utils.obj
+         .\Debug\wave.obj
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\mp3.exe.embed.manifest" /manifest .\Debug\mp3.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         mp3.vcxproj -> C:\Users\junhuang\Desktop\SHINE\mp3\.\Debug\mp3.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\mp3.unsuccessfulbuild”。
+         正在对“.\Debug\mp3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\junhuang\Desktop\SHINE\mp3\mp3.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.72
